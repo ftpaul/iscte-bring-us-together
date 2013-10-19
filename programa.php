@@ -11,27 +11,11 @@
 			<div class="clear"></div>
 
 			<div class="desktop-2 columns">
-			<div class="navbar-collapse collapse">
-				<ul class="nav-documentation">
-					<li><a href="/">Home</a></li>
-					<li><a href="programa.php">Programa</a></li>
-					<li><a href="participantes.php">Participantes</a></li>
-					<li><a href="registo.php">Registo</a></li>
-					<li><a href="multimedia.php">Multimédia</a></li>
-					<li><a href="contactos.php">Contactos</a></li>
-					<li><a href="/2012/">Edição 2012</a></li>
-				</ul><!-- // ul.list -->
-			</div>
-			<div id='mySwipe' style='margin:20px auto' class='swipe'>
-			<div class='swipe-wrap'>
-				
-				<?php
-					foreach ($_SESSION['images'] as $key => $value) {
-						echo "<div><a href='". $_SESSION['url'][$key] . "' target='_blank'><img src='/sponsors/" . $_SESSION['images'][$key] . "' class='img-responsive'/></a></div>";
-					}
-				?>
-			</div>
-			</div>
+			
+			<?php
+					require 'menu.php'
+			?>
+			
 			</div><!-- // .desktop-3 -->
 
 			<div class="desktop-10 tablet-12 columns">

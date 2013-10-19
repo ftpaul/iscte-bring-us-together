@@ -45,30 +45,6 @@ if (!isset($_SESSION['url']) && !isset($_SESSION['images'])) {
 	<link type="text/css" rel="stylesheet" href="/css/shCoreDefault.css"/>
 	<link rel="stylesheet" type="text/css" href="/css/custom.css" />
 	<link rel="stylesheet" type="text/css" href="../css/modal.css" />
-	
-	<!--<script src="js/less-1.4.0.min.js"></script>
-	<link rel="stylesheet/less" type="text/css" href="typegrid.less" />-->
-	
-	<!--[if lt IE 8]>
-		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
-	<![endif]-->
-
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-
-	<!-- Typekit: Proxima Nova
-	================================================== -->
-	<!--<script type="text/javascript" src="//use.typekit.net/caa2rex.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>-->
-
-
-	<script type="text/javascript" src="/js/shCore.js"></script>
-	<script type="text/javascript" src="/js/shBrushJScript.js"></script>
-	<script type="text/javascript" src="/js/shBrushPlain.js"></script>
-
-	<script type="text/javascript">SyntaxHighlighter.all();</script>
 
 	<!-- Favicons
 	================================================== -->

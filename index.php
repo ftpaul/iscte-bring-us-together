@@ -1,55 +1,30 @@
-ESUTC
 	<?php
 		require 'header.php'
 	?>
 	
-	<!-- Overview
-	================================================== -->
 	<section id="main" style="background-image:url(images/alumni-reunion.png)">
 		<div class="container">
 			<div class="desktop-12 columns">
 				
-				<!--<p class="tagline">ISCTE Bring Us Together.</p>-->
 				<p class="custom-logo"><a href="/pt/"><img src="images/logo.png" style="width:100px" /></a></p>
 				
 				<p class="tagline-desc">Evento que pretende juntar anualmente alumni do ISCTE – Instituto Universitário de Lisboa provenientes de todo o mundo.</p>
-				<!--<div class="box-buttons">
-					<a href="#" class="button btn-documentation">View More</a>
-					<a href="https://github.com/subwaymatch/typegrid/archive/master.zip" class="button btn-download">Old Edition</a>
-				</div>-- // .box-buttons -->
-			</div><!-- // .desktop-12 -->
-		</div><!-- // .container -->
-	</section><!-- // section#main -->
+				
+			</div>
+		</div>
+	</section>
 
-	<!-- Documentation
-	================================================== -->
 	<section id="documentation">
 		<div class="container">
 			
 			<div class="clear"></div>
 
 			<div class="desktop-2 columns">
-			<div class="navbar-collapse collapse">
-				<ul class="nav-documentation">
-					<li><a href="/">Home</a></li>
-					<li><a href="programa.php">Programa</a></li>
-					<li><a href="participantes.php">Participantes</a></li>
-					<li><a href="registo.php">Registo</a></li>
-					<li><a href="multimedia.php">Multimédia</a></li>
-					<li><a href="contactos.php">Contactos</a></li>
-					<li><a href="/2012/">Edição 2012</a></li>
-				</ul><!-- // ul.list -->
-			</div>
-			<div id='mySwipe' style='margin:20px auto' class='swipe'>
-			<div class='swipe-wrap'>
-				
-				<?php
-					foreach ($_SESSION['images'] as $key => $value) {
-						echo "<div><a href='". $_SESSION['url'][$key] . "' target='_blank'><img src='/sponsors/" . $_SESSION['images'][$key] . "' class='img-responsive'/></a></div>";
-					}
-				?>
-			</div>
-			</div>
+			
+			<?php
+					require 'menu.php'
+			?>
+			
 			</div><!-- // .desktop-3 -->
 
 			<div class="desktop-10 tablet-12 columns">
@@ -65,11 +40,11 @@ ESUTC
 
 <p><strong>A viagem para Maputo e o alojamento são pagos pelos participantes. </strong></p>
 
-				</div><!-- // .box-documentation -->
+				</div>
 
-			</div><!-- // .desktop-10 -->
-		</div><!-- // .container -->
-	</section><!-- // section#documentation -->
+			</div>
+		</div>
+	</section>
 
 	<?php
 		require 'footer.php'

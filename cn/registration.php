@@ -62,7 +62,7 @@
     <ul class="form-section">
       <li class="form-line form-line-column" id="id_3">
         <label class="form-label-top" id="label_3" for="input_3">
-          Name<span class="form-required">*</span>
+          姓名<span class="form-required">*</span>
         </label>
         <div id="cid_3" class="form-input-wide"><span class="form-sub-label-container"><input class="form-textbox validate[required]" type="text" size="10" name="q3_fullName3[first]" id="first_3" />
             <label class="form-sub-label" for="first_3" id="sublabel_first"> First Name </label></span><span class="form-sub-label-container"><input class="form-textbox validate[required]" type="text" size="15" name="q3_fullName3[last]" id="last_3" />
@@ -71,26 +71,26 @@
       </li>
       <li class="form-line" id="id_7">
         <label class="form-label-top" id="label_7" for="input_7">
-          ISCTE- alumni relationship:<span class="form-required">*</span>
+          与里斯本工商管理大学的关系:<span class="form-required">*</span>
         </label>
         <div id="cid_7" class="form-input-wide">
           <div class="form-single-column"><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio validate[required]" id="input_7_0" name="q7_iscteiulRelationship" value="PhD" />
               <label for="input_7_0"> PhD </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio validate[required]" id="input_7_1" name="q7_iscteiulRelationship" value="DBA" />
-              <label for="input_7_1"> DBA </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio validate[required]" id="input_7_2" name="q7_iscteiulRelationship" value="MsC / MBA" />
-              <label for="input_7_2"> MsC / MBA </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio validate[required]" id="input_7_3" name="q7_iscteiulRelationship" value="Bachelor" />
-              <label for="input_7_3"> Bachelor </label></span><span class="clearfix"></span>
+              <label for="input_7_1"> 国际管理学博士 </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio validate[required]" id="input_7_2" name="q7_iscteiulRelationship" value="MsC / MBA" />
+              <label for="input_7_2"> 工商管理硕士/普硕 </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio validate[required]" id="input_7_3" name="q7_iscteiulRelationship" value="Bachelor" />
+              <label for="input_7_3"> 学士 </label></span><span class="clearfix"></span>
           </div>
         </div>
       </li>
       <li class="form-line" id="id_15">
-        <label class="form-label-top" id="label_15" for="input_15"> Year </label>
+        <label class="form-label-top" id="label_15" for="input_15"> 年 </label>
         <div id="cid_15" class="form-input-wide">
           <input type="text" class=" form-textbox" data-type="input-textbox" id="input_15" name="q15_year" size="5" value="" />
         </div>
       </li>
       <li class="form-line" id="id_8">
         <label class="form-label-top" id="label_8" for="input_8">
-          Address<span class="form-required">*</span>
+          联系地址<span class="form-required">*</span>
         </label>
         <div id="cid_8" class="form-input-wide">
           <input type="text" class=" form-textbox validate[required]" data-type="input-textbox" id="input_8" name="q8_address" size="20" value="" />
@@ -98,7 +98,7 @@
       </li>
       <li class="form-line" id="id_9">
         <label class="form-label-top" id="label_9" for="input_9">
-          Residence country<span class="form-required">*</span>
+          居住国<span class="form-required">*</span>
         </label>
         <div id="cid_9" class="form-input-wide">
           <input type="text" class=" form-textbox validate[required]" data-type="input-textbox" id="input_9" name="q9_residenceCountry" size="20" value="" />
@@ -106,7 +106,7 @@
       </li>
       <li class="form-line form-line-column" id="id_4">
         <label class="form-label-top" id="label_4" for="input_4">
-          Email contact<span class="form-required">*</span>
+          Email 地址<span class="form-required">*</span>
         </label>
         <div id="cid_4" class="form-input-wide"><span class="form-sub-label-container"><input type="email" class=" form-textbox validate[required, Email]" id="input_4" name="q4_email4" size="30" value="" />
             <label class="form-sub-label" for="input_4"> So that we can get back to you </label></span>
@@ -114,26 +114,26 @@
       </li>
       <li class="form-line" id="id_10">
         <label class="form-label-top" id="label_10" for="input_10">
-          Phone contact<span class="form-required">*</span>
+          联系电话<span class="form-required">*</span>
         </label>
         <div id="cid_10" class="form-input-wide">
           <input type="text" class=" form-textbox validate[required]" data-type="input-textbox" id="input_10" name="q10_phoneContact" size="20" value="" />
         </div>
       </li>
       <li class="form-line" id="id_6">
-        <label class="form-label-top" id="label_6" for="input_6"> Mini vitae (6 lines maximum) </label>
+        <label class="form-label-top" id="label_6" for="input_6"> 个人简介（最多六行） </label>
         <div id="cid_6" class="form-input-wide"><span class="form-sub-label-container"><textarea id="input_6" class="form-textarea" name="q6_description" cols="57" rows="6"></textarea>
             </span>
         </div>
       </li>
       <li class="form-line" id="id_5">
-        <label class="form-label-top" id="label_5" for="input_5"> Upload Photo </label>
+        <label class="form-label-top" id="label_5" for="input_5"> 上传照片 </label>
         <div id="cid_5" class="form-input-wide"><span class="form-sub-label-container"><input class="form-upload" type="file" id="input_5" name="q5_uploadFile" file-accept="*" file-maxsize="1024" />
             <label class="form-sub-label" for="input_5"> You can upload any type of image. Max: 300 KB </label></span>
         </div>
       </li>
       <li class="form-line" id="id_11">
-        <label class="form-label-top" id="label_11" for="input_11"> November, 29th </label>
+        <label class="form-label-top" id="label_11" for="input_11"> 11月29日 </label>
         <!--<div id="cid_11" class="form-input-wide">
           <div class="form-single-column"><span class="form-checkbox-item" style="clear:left;"><input type="checkbox" class="form-checkbox" id="input_11_0" name="q11_november29th11[]" value="Clique para editar" />
               <label for="input_11_0"> Clique para editar </label></span><span class="clearfix"></span>
@@ -141,55 +141,55 @@
         </div>-->
       </li>
       <li class="form-line" id="id_26">
-        <label class="form-label-top" id="label_26" for="input_26"> 15:00 ISCTE Alumni Mundi Presentation </label>
+        <label class="form-label-top" id="label_26" for="input_26"> 15:00 里斯本工商管理大学 校友  介绍 </label>
         <div id="cid_26" class="form-input-wide">
-          <div class="form-single-column"><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_26_0" name="q26_1500Iscte" value="Sim" />
-              <label for="input_26_0"> Sim </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_26_1" name="q26_1500Iscte" value="Não" />
-              <label for="input_26_1"> Não </label></span><span class="clearfix"></span>
+          <div class="form-single-column"><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_26_0" name="q26_1500Iscte" value="Yes" />
+              <label for="input_26_0"> Yes </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_26_1" name="q26_1500Iscte" value="No" />
+              <label for="input_26_1"> No </label></span><span class="clearfix"></span>
           </div>
         </div>
       </li>
       <li class="form-line" id="id_27">
-        <label class="form-label-top" id="label_27" for="input_27"> 15:30 Energy Potential of Mozambique - challenges for the creation of an energy block CPLP / Macau-China </label>
+        <label class="form-label-top" id="label_27" for="input_27"> 15:30 莫桑比克的能源潜力 – 创造葡语国家能源共同体的挑战/ 澳门- 中国 </label>
         <div id="cid_27" class="form-input-wide">
-          <div class="form-single-column"><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_27_0" name="q27_1530Energy" value="Sim" />
-              <label for="input_27_0"> Sim </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_27_1" name="q27_1530Energy" value="Não" />
-              <label for="input_27_1"> Não </label></span><span class="clearfix"></span>
+          <div class="form-single-column"><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_27_0" name="q27_1530Energy" value="Yes" />
+              <label for="input_27_0"> Yes </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_27_1" name="q27_1530Energy" value="No" />
+              <label for="input_27_1"> No </label></span><span class="clearfix"></span>
           </div>
         </div>
       </li>
       <li class="form-line" id="id_28">
-        <label class="form-label-top" id="label_28" for="input_28"> 20:00 Dinner </label>
+        <label class="form-label-top" id="label_28" for="input_28"> 20:00 晚宴 </label>
         <div id="cid_28" class="form-input-wide">
-          <div class="form-single-column"><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_28_0" name="q28_2000Dinner" value="Sim" />
-              <label for="input_28_0"> Sim </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_28_1" name="q28_2000Dinner" value="Não" />
-              <label for="input_28_1"> Não </label></span><span class="clearfix"></span>
+          <div class="form-single-column"><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_28_0" name="q28_2000Dinner" value="Yes" />
+              <label for="input_28_0"> Yes </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_28_1" name="q28_2000Dinner" value="No" />
+              <label for="input_28_1"> No </label></span><span class="clearfix"></span>
           </div>
         </div>
       </li>
       <li class="form-line" id="id_12">
-        <label class="form-label-top" id="label_12" for="input_12"> November, 30th </label>
+        <label class="form-label-top" id="label_12" for="input_12"> 11月30日 </label>
         <!--<div id="cid_12" class="form-input-wide">
           <div class="form-single-column"><span class="form-checkbox-item" style="clear:left;"><input type="checkbox" class="form-checkbox" id="input_12_0" name="q12_november30th[]" value="----" />
-              <label for="input_12_0"> ---- </label></span><span class="clearfix"></span>
+              <label for="input_12_0">  </label></span><span class="clearfix"></span>
           </div>
         </div>-->
       </li>
       <li class="form-line" id="id_29">
-        <label class="form-label-top" id="label_29" for="input_29"> 10:00 Touristic visit and lunch </label>
+        <label class="form-label-top" id="label_29" for="input_29"> 10:00 旅游参观及午餐 </label>
         <div id="cid_29" class="form-input-wide">
-          <div class="form-single-column"><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_29_0" name="q29_1000Touristic" value="Sim" />
-              <label for="input_29_0"> Sim </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_29_1" name="q29_1000Touristic" value="Não" />
-              <label for="input_29_1"> Não </label></span><span class="clearfix"></span>
+          <div class="form-single-column"><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_29_0" name="q29_1000Touristic" value="Yes" />
+              <label for="input_29_0"> Yes </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_29_1" name="q29_1000Touristic" value="No" />
+              <label for="input_29_1"> No </label></span><span class="clearfix"></span>
           </div>
         </div>
       </li>
       <li class="form-line" id="id_30">
-        <label class="form-label-top" id="label_30" for="input_30"> 17:00 Final Remarks </label>
+        <label class="form-label-top" id="label_30" for="input_30"> 17:00 结束语 </label>
         <div id="cid_30" class="form-input-wide">
-          <div class="form-single-column"><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_30_0" name="q30_1700Final" value="Sim" />
-              <label for="input_30_0"> Sim </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_30_1" name="q30_1700Final" value="Não" />
-              <label for="input_30_1"> Não </label></span><span class="clearfix"></span>
+          <div class="form-single-column"><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_30_0" name="q30_1700Final" value="Yes" />
+              <label for="input_30_0"> Yes </label></span><span class="clearfix"></span><span class="form-radio-item" style="clear:left;"><input type="radio" class="form-radio" id="input_30_1" name="q30_1700Final" value="No" />
+              <label for="input_30_1"> No </label></span><span class="clearfix"></span>
           </div>
         </div>
       </li>
@@ -208,7 +208,7 @@
       </li>
     </ul>
   </div>
-  <input type="hidden" id="simple_spc" name="simple_spc" value="22767995882375" />
+  <input type="hidden" id="Yesple_spc" name="Yesple_spc" value="22767995882375" />
   <script type="text/javascript">
   document.getElementById("si" + "mple" + "_spc").value = "22767995882375-22767995882375";
   </script>
