@@ -1,0 +1,1011 @@
+/*--------------------------------------------------------------------------
+	1. Grid System
+--------------------------------------------------------------------------*/
+/* Container */
+.container {
+  width: 960px;
+  margin: 0 auto;
+  /* Columns */
+
+}
+.container .column,
+.container .columns {
+  float: left;
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container .column.nest,
+.container .columns.nest,
+.container .column.nested,
+.container .columns.nested {
+  padding-left: 0;
+  padding-right: 0;
+}
+.desktop-1 {
+  width: 80px;
+}
+.desktop-2 {
+  width: 160px;
+}
+.desktop-3 {
+  width: 240px;
+}
+.desktop-4 {
+  width: 320px;
+}
+.desktop-5 {
+  width: 400px;
+}
+.desktop-6 {
+  width: 480px;
+}
+.desktop-7 {
+  width: 560px;
+}
+.desktop-8 {
+  width: 640px;
+}
+.desktop-9 {
+  width: 720px;
+}
+.desktop-10 {
+  width: 800px;
+}
+.desktop-11 {
+  width: 880px;
+}
+.desktop-12 {
+  width: 960px;
+}
+.offset-1 {
+  margin-left: 80px;
+}
+.offset-2 {
+  margin-left: 160px;
+}
+.offset-3 {
+  margin-left: 240px;
+}
+.offset-4 {
+  margin-left: 320px;
+}
+.offset-5 {
+  margin-left: 400px;
+}
+.offset-6 {
+  margin-left: 480px;
+}
+.offset-7 {
+  margin-left: 560px;
+}
+.offset-8 {
+  margin-left: 640px;
+}
+.offset-9 {
+  margin-left: 720px;
+}
+.offset-10 {
+  margin-left: 800px;
+}
+.offset-11 {
+  margin-left: 880px;
+}
+/* Widescreen */
+@media screen and (min-width: 1300px) {
+  .container {
+    width: 1200px;
+  }
+  .desktop-1 {
+    width: 100px;
+  }
+  .desktop-2 {
+    width: 200px;
+  }
+  .desktop-3 {
+    width: 300px;
+  }
+  .desktop-4 {
+    width: 400px;
+  }
+  .desktop-5 {
+    width: 500px;
+  }
+  .desktop-6 {
+    width: 600px;
+  }
+  .desktop-7 {
+    width: 700px;
+  }
+  .desktop-8 {
+    width: 800px;
+  }
+  .desktop-9 {
+    width: 900px;
+  }
+  .desktop-10 {
+    width: 1000px;
+  }
+  .desktop-11 {
+    width: 1100px;
+  }
+  .desktop-12 {
+    width: 1200px;
+  }
+  .offset-1 {
+    margin-left: 100px;
+  }
+  .offset-2 {
+    margin-left: 200px;
+  }
+  .offset-3 {
+    margin-left: 300px;
+  }
+  .offset-4 {
+    margin-left: 400px;
+  }
+  .offset-5 {
+    margin-left: 500px;
+  }
+  .offset-6 {
+    margin-left: 600px;
+  }
+  .offset-7 {
+    margin-left: 700px;
+  }
+  .offset-8 {
+    margin-left: 800px;
+  }
+  .offset-9 {
+    margin-left: 900px;
+  }
+  .offset-10 {
+    margin-left: 1000px;
+  }
+  .offset-11 {
+    margin-left: 1100px;
+  }
+}
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  .container {
+    width: 660px;
+  }
+  .desktop-1 {
+    width: 55px;
+  }
+  .desktop-2 {
+    width: 110px;
+  }
+  .desktop-3 {
+    width: 165px;
+  }
+  .desktop-4 {
+    width: 220px;
+  }
+  .desktop-5 {
+    width: 275px;
+  }
+  .desktop-6 {
+    width: 330px;
+  }
+  .desktop-7 {
+    width: 385px;
+  }
+  .desktop-8 {
+    width: 440px;
+  }
+  .desktop-9 {
+    width: 495px;
+  }
+  .desktop-10 {
+    width: 550px;
+  }
+  .desktop-11 {
+    width: 605px;
+  }
+  .desktop-12 {
+    width: 660px;
+  }
+  .tablet-1 {
+    width: 55px;
+  }
+  .tablet-2 {
+    width: 110px;
+  }
+  .tablet-3 {
+    width: 165px;
+  }
+  .tablet-4 {
+    width: 220px;
+  }
+  .tablet-5 {
+    width: 275px;
+  }
+  .tablet-6 {
+    width: 330px;
+  }
+  .tablet-7 {
+    width: 385px;
+  }
+  .tablet-8 {
+    width: 440px;
+  }
+  .tablet-9 {
+    width: 495px;
+  }
+  .tablet-10 {
+    width: 550px;
+  }
+  .tablet-11 {
+    width: 605px;
+  }
+  .tablet-12 {
+    width: 660px;
+  }
+  .offset-1 {
+    margin-left: 55px;
+  }
+  .offset-2 {
+    margin-left: 110px;
+  }
+  .offset-3 {
+    margin-left: 165px;
+  }
+  .offset-4 {
+    margin-left: 220px;
+  }
+  .offset-5 {
+    margin-left: 275px;
+  }
+  .offset-6 {
+    margin-left: 330px;
+  }
+  .offset-7 {
+    margin-left: 385px;
+  }
+  .offset-8 {
+    margin-left: 440px;
+  }
+  .offset-9 {
+    margin-left: 495px;
+  }
+  .offset-10 {
+    margin-left: 550px;
+  }
+  .offset-11 {
+    margin-left: 605px;
+  }
+  .tablet-offset-0 {
+    margin-left: 0px;
+  }
+  .tablet-offset-1 {
+    margin-left: 55px;
+  }
+  .tablet-offset-2 {
+    margin-left: 110px;
+  }
+  .tablet-offset-3 {
+    margin-left: 165px;
+  }
+  .tablet-offset-4 {
+    margin-left: 220px;
+  }
+  .tablet-offset-5 {
+    margin-left: 275px;
+  }
+  .tablet-offset-6 {
+    margin-left: 330px;
+  }
+  .tablet-offset-7 {
+    margin-left: 385px;
+  }
+  .tablet-offset-8 {
+    margin-left: 440px;
+  }
+  .tablet-offset-9 {
+    margin-left: 495px;
+  }
+  .tablet-offset-10 {
+    margin-left: 550px;
+  }
+  .tablet-offset-11 {
+    margin-left: 605px;
+  }
+}
+/* Mobile - Portrait */
+@media screen and (max-width: 767px) {
+  .container {
+    width: 280px;
+  }
+  .desktop-1,
+  .tablet-1 {
+    width: 280px;
+  }
+  .desktop-2,
+  .tablet-2 {
+    width: 280px;
+  }
+  .desktop-3,
+  .tablet-3 {
+    width: 280px;
+  }
+  .desktop-4,
+  .tablet-4 {
+    width: 280px;
+  }
+  .desktop-5,
+  .tablet-5 {
+    width: 280px;
+  }
+  .desktop-6,
+  .tablet-6 {
+    width: 280px;
+  }
+  .desktop-7,
+  .tablet-7 {
+    width: 280px;
+  }
+  .desktop-8,
+  .tablet-8 {
+    width: 280px;
+  }
+  .desktop-9,
+  .tablet-9 {
+    width: 280px;
+  }
+  .desktop-10,
+  .tablet-10 {
+    width: 280px;
+  }
+  .desktop-11,
+  .tablet-11 {
+    width: 280px;
+  }
+  .desktop-12,
+  .tablet-12 {
+    width: 280px;
+  }
+  .mobile-1 {
+    width: 100px;
+  }
+  .mobile-2 {
+    width: 100px;
+  }
+  .offset-1 {
+    margin-left: 0;
+  }
+  .offset-2 {
+    margin-left: 0;
+  }
+  .offset-3 {
+    margin-left: 0;
+  }
+  .offset-4 {
+    margin-left: 0;
+  }
+  .offset-5 {
+    margin-left: 0;
+  }
+  .offset-6 {
+    margin-left: 0;
+  }
+  .offset-7 {
+    margin-left: 0;
+  }
+  .offset-8 {
+    margin-left: 0;
+  }
+  .offset-9 {
+    margin-left: 0;
+  }
+  .offset-10 {
+    margin-left: 0;
+  }
+  .offset-11 {
+    margin-left: 0;
+  }
+}
+/* Mobile - Landscape */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 400px;
+  }
+  .desktop-1,
+  .tablet-1 {
+    width: 400px;
+  }
+  .desktop-2,
+  .tablet-2 {
+    width: 400px;
+  }
+  .desktop-3,
+  .tablet-3 {
+    width: 400px;
+  }
+  .desktop-4,
+  .tablet-4 {
+    width: 400px;
+  }
+  .desktop-5,
+  .tablet-5 {
+    width: 400px;
+  }
+  .desktop-6,
+  .tablet-6 {
+    width: 400px;
+  }
+  .desktop-7,
+  .tablet-7 {
+    width: 400px;
+  }
+  .desktop-8,
+  .tablet-8 {
+    width: 400px;
+  }
+  .desktop-9,
+  .tablet-9 {
+    width: 400px;
+  }
+  .desktop-10,
+  .tablet-10 {
+    width: 400px;
+  }
+  .desktop-11,
+  .tablet-11 {
+    width: 400px;
+  }
+  .desktop-12,
+  .tablet-12 {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  
+}
+@media screen and (max-width: 959px) {
+  .hide-under-tablet {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  
+}
+@media screen and (max-width: 767px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  
+}
+@media screen and (max-width: 479px) {
+  
+}
+/* #Clearing
+================================================== */
+/* Self Clearing Goodness */
+.container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* Use clearfix class on parent to clear nested columns,
+or wrap each row of columns in a <div class="row"> */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.row:after,
+.clearfix:after {
+  clear: both;
+}
+.row,
+.clearfix {
+  zoom: 1;
+}
+/* You can also use a <br class="clear" /> to clear columns */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+/*--------------------------------------------------------------------------
+   
+
+	Typeresearch
+
+	LESS-based responsive grid system
+
+	0. YUI Library is used for CSS reset (http://yuilibrary.com/yui/docs/cssreset/)
+	1. Body
+	2. Typography
+	3. Page Sections
+		3.1. Topbar
+		3.2. Intro
+		3.3. Resume
+		3.4. Works
+			3.4.1 jQuery Reveal Plugin
+		3.5. Contact / References / Testimonials
+		3.6. Footer
+
+
+--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------
+	1. Body
+--------------------------------------------------------------------------*/
+body {
+  color: #000;
+  background: #fff;
+  font-size: 16px;
+  line-height: 27px;
+  font-family: "proxima-nova", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* Fix for webkit rendering */
+
+  -webkit-text-size-adjust: 100%;
+}
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+/*--------------------------------------------------------------------------
+	2. Typography
+--------------------------------------------------------------------------*/
+/* Links */
+a {
+  color: #006699;
+  text-decoration: none;
+  outline: 0;
+}
+a:hover,
+a:focus {
+  color: #ee4433;
+}
+/* Visibility */
+.hide {
+  display: none !important;
+}
+/* Highlighted Text */
+::selection {
+  background: #222;
+  color: #006699;
+  text-shadow: none;
+}
+/* Firefox */
+::-moz-selection {
+  background: #222;
+  color: #006699;
+  text-shadow: none;
+}
+em,
+.italic {
+  font-style: italic;
+}
+strong,
+.bold {
+  font-weight: bold;
+}
+/* Colors */
+.font-color-primary {
+  color: #006699;
+}
+.background-color-primary {
+  background: #006699;
+}
+.font-color-secondary {
+  color: #ee4433;
+}
+.background-color-primary {
+  background: #ee4433;
+}
+.font-color-white {
+  color: #fff;
+}
+.background-color-white {
+  background: #fff;
+}
+/*--------------------------------------------------------------------------
+	3. Page Sections
+--------------------------------------------------------------------------*/
+img {
+  max-width: 100%;
+}
+h3 {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+h4 {
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+section#header {
+  color: #000;
+  margin: 0;
+  padding: 15px 0;
+}
+section#header h1 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+}
+section#header h1 a {
+  display: block;
+  color: #000;
+  background: url('../images/icone.png') no-repeat left center;
+  padding: 20px 0 20px 45px;
+}
+section#header h1 a:hover {
+  color: #006699;
+}
+section#header h1 a:hover strong {
+  color: #ee4433;
+}
+section#header p {
+  margin-bottom: 0;
+}
+section#header p.site-desc {
+  color: #fff;
+  font-size: 13px;
+  line-height: 23px;
+  font-style: italic;
+  text-align: right;
+}
+@media screen and (max-width: 767px) {
+  section#header p.site-desc {
+    text-align: left;
+  }
+}
+section#header ul.social {
+  float: right;
+}
+section#header ul.social li {
+  display: inline-block;
+  float: left;
+  position: relative;
+  right: -14px;
+}
+section#header ul.social li a {
+  display: block;
+  padding: 14px 14px 12px 14px;
+}
+section#header ul.social li a:hover {
+  background: #f5f5f5;
+}
+section#main {
+  color: #fff;
+  background: #111111 url('http://typegrid.com/images/bg_main.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding: 120px 0 100px;
+  margin: 0;
+}
+@media screen and (max-width: 767px) {
+  section#main {
+    padding: 70px 0;
+    text-align: left;
+  }
+}
+section#main p.tagline {
+  font-size: 46px;
+  line-height: 56px;
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  section#main p.tagline {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+section#main p.tagline-desc {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+@media screen and (max-width: 767px) {
+  section#main p.tagline-desc {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+section#main div.box-buttons {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background: url('http://typegrid.com/images/alpha/bg_alpha10.png');
+  padding: 8px;
+  display: inline-block;
+  margin-top: 70px;
+}
+section#main div.box-buttons a.button {
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: bold;
+  text-align: left;
+  display: inline-block;
+  padding: 20px 25px 20px 75px;
+  float: left;
+  margin-right: 8px;
+}
+section#main div.box-buttons a.button.btn-documentation {
+  background: #006699 url('http://typegrid.com/images/icons/icon_documentation.png') no-repeat 25px center;
+}
+section#main div.box-buttons a.button.btn-documentation:hover {
+  background-color: #0fc5b6;
+}
+section#main div.box-buttons a.button.btn-download {
+  background: #ee4433 url('http://typegrid.com/images/icons/icon_download.png') no-repeat 25px center;
+  margin-right: 0;
+}
+section#main div.box-buttons a.button.btn-download:hover {
+  background-color: #ec2e1b;
+}
+@media screen and (max-width: 767px) {
+  section#main div.box-buttons a.button {
+    font-size: 14px;
+    line-height: 24px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+section#steps {
+  padding: 50px 0;
+}
+section#steps h2 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 300;
+  padding-left: 65px;
+}
+section#steps h2#title-step1 {
+  background: url('http://typegrid.com/images/icons/icon_include.png') no-repeat left center;
+}
+section#steps h2#title-step2 {
+  background: url('http://typegrid.com/images/icons/icon_configure.png') no-repeat left center;
+}
+section#steps h2#title-step3 {
+  background: url('http://typegrid.com/images/icons/icon_begin.png') no-repeat left center;
+}
+@media screen and (max-width: 959px) {
+  section#steps h2 {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 959px) {
+  section#steps h2.first {
+    margin-top: 0;
+  }
+}
+section#steps p {
+  color: #666;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+section#documentation {
+  border-top: 1px solid #eee;
+  padding: 50px 0;
+}
+section#documentation h2 {
+  color: #444;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+section#documentation h3 {
+  font-size: 27px;
+  line-height: 36px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+section#documentation h3.first {
+  margin-top: 0;
+}
+@media screen and (max-width: 479px) {
+  section#documentation h3 {
+    font-size: 23px;
+    line-height: 33px;
+  }
+}
+section#documentation h4 {
+  color: #333;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 479px) {
+  section#documentation h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+section#documentation p {
+  color: #777;
+  margin-bottom: 40px;
+}
+section#documentation ul.nav-documentation li a {
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  border-top: 1px solid #f6f6f6;
+  padding: 12px 0;
+}
+section#documentation ul.nav-documentation li a:hover {
+  color: #006699;
+  border-top: 1px solid #006699;
+}
+section#documentation ol.benefits {
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+section#documentation ol.benefits > li {
+  list-style-type: decimal;
+  margin-bottom: 20px;
+}
+section#documentation ol.benefits ul {
+  margin-top: 20px;
+}
+section#documentation ol.benefits ul li {
+  padding: 14px 0;
+  border-top: 1px solid #eee;
+}
+section#documentation .box-documentation {
+  background: #f9f9f9;
+  padding: 30px 50px;
+  border: 1px solid #eee;
+}
+@media screen and (min-width: 1300px) {
+  section#documentation .box-documentation {
+    padding: 50px 70px;
+  }
+}
+@media screen and (max-width: 959px) {
+  section#documentation .box-documentation {
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+}
+section#subscribe {
+  color: #fff;
+  background: #000;
+  border-bottom: 1px solid #111;
+  padding: 60px 0;
+  margin: 0;
+}
+section#subscribe h4 {
+  font-weight: normal;
+}
+section#subscribe form label {
+  color: #444;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 15px;
+}
+section#subscribe form input[type="text"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ccc;
+  background: #111;
+  display: block;
+  width: 100%;
+  padding: 30px 30px;
+  border: 1px solid #222;
+  outline: none;
+}
+section#subscribe form input[type="text"]:focus {
+  color: #fff;
+  border-color: #006699;
+}
+section#subscribe form input[type="submit"] {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  background: #006699;
+  margin-top: 30px;
+  width: 100%;
+  padding: 30px 30px;
+  border: none;
+  cursor: pointer;
+}
+section#subscribe form input[type="submit"]:hover {
+  background: #0fc5b6;
+}
+@media screen and (max-width: 767px) {
+  section#subscribe form {
+    margin-top: 40px;
+  }
+}
+/* all */
+::-webkit-input-placeholder {
+  color: #555;
+}
+::-moz-placeholder {
+  color: #555;
+}
+/* firefox 19+ */
+:-ms-input-placeholder {
+  color: #555;
+}
+/* ie */
+input:-moz-placeholder {
+  color: #555;
+}
+section#footer {
+  color: #fff;
+  background: #000;
+  padding: 50px 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+section#footer #box-address {
+  background: url('http://typegrid.com/images/icons/icon_map.png') no-repeat left center;
+  padding-left: 80px;
+}
+@media screen and (max-width: 959px) {
+  section#footer #box-address {
+    margin-bottom: 40px;
+  }
+}
+section#footer #box-contact {
+  background: url('http://typegrid.com/images/icons/icon_email.png') no-repeat left center;
+  padding-left: 80px;
+}
+section#footer a {
+  color: #006699;
+}
+section#footer a:hover {
+  color: #fff;
+}
+section#footer a.link-email {
+  color: #444;
+  font-weight: bold;
+}
+section#footer a.link-email:hover {
+  color: #006699;
+}
